@@ -1,7 +1,7 @@
 export default function Card({ item }) {
   return (
     <article
-      className={`p-8 rounded-xl lg:rounded-lg ${item.backgroundColor} bg-tw-grayish-blue drop-shadow-2xl ${item.classes} flex flex-col justify-between relative`}
+      className={`p-8 rounded-xl lg:rounded-lg ${item.backgroundColor} drop-shadow-2xl ${item.classes} flex flex-col justify-between relative`}
     >
       <header className="flex items-center justify-between gap-3 mb-4">
         <figure className={`rounded-full overflow-hidden w-8 h-8 ${item.ring}`}>
